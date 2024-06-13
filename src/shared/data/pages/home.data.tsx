@@ -42,7 +42,7 @@ export const heroHome: HeroProps = {
     alt: "Colorful Image",
   },
   mainTitle: <>Empowering properties for a better future.</>,
-  appName: <>BookItEase</>,
+  appName: <>Reservay</>,
   title: <>Hotel Management Software</>,
   subtitle: (
     <>
@@ -61,11 +61,13 @@ export const heroHome: HeroProps = {
     href: "https://calendly.com/ravilavanjan23",
     targetBlank: true,
   },
+  callToAction3: {
+    text: "Demo Video",
+    href: "https://www.youtube.com/embed/USY5zPydhlo?rel=0&amp;autoplay=1;",
+    targetBlank: false,
+  },
 };
-export const demoContent: DemoProps = {
-  title: <>Demo Video</>,
-  href: "https://www.youtube.com/embed/USY5zPydhlo?rel=0&amp;autoplay=1",
-};
+
 // // SocialProof data on Home page *******************
 // export const socialProofHome: SocialProofProps = {
 //   id: 'socialProof-on-home',
@@ -585,8 +587,7 @@ export const pricingHome: PricingProps = {
   hasBackground: true,
   header: {
     title: "Prices for each plan",
-    subtitle:
-      "Pick a plan to grow your hotel and your business with BookItEase.",
+    subtitle: "Pick a plan to grow your hotel and your business with Reservay.",
     // tagline: 'Pricing',
   },
   prices: [

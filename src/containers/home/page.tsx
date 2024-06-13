@@ -20,7 +20,6 @@ import {
   pricingHome,
   contentHomeFive,
   contentHomeSix,
-  demoContent,
 } from "../../shared/data/pages/home.data";
 
 export const metadata = {
@@ -32,7 +31,7 @@ export default function HomePage() {
     <Suspense fallback={<div>Loading...</div>}>
       <Hero {...heroHome} />
       <Features {...featuresHome} />
-      <Demo {...demoContent} />
+
       <Content {...contentHomeOne} />
       <Content {...contentHomeTwo} />
       <Content {...contentHomeThree} />

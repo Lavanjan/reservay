@@ -1,10 +1,10 @@
 module.exports.SITE = {
-  name: "BookItEase",
+  name: "Reservay",
 
-  origin: "https://bookitease.vercel.app",
+  origin: "https://reservay.vercel.app",
   basePathname: "/",
   trailingSlash: false,
 
-  title: "BookItEase",
-  description: "BookItEase",
+  title: "Reservay",
+  description: "Reservay",
 };

@@ -71,7 +71,7 @@ export const headerData: HeaderProps = {
 
 // Footer data
 export const footerData: FooterProps = {
-  title: "BookItEase",
+  title: "Reservay",
   links: [
     {
       label: "Terms & Conditions",
@@ -265,5 +265,5 @@ export const footerData2: FooterProps = {
 };
 
 export const appLinks = {
-  adminPortal: "http://172.208.121.220/product/user-registration",
+  adminPortal: "http://192.168.1.75:3000/product/user-registration",
 };

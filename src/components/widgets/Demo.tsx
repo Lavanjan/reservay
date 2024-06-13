@@ -16,13 +16,6 @@ const Demo = ({ title, href }: DemoProps) => {
           referrerPolicy="strict-origin-when-cross-origin"
           allowFullScreen
         ></iframe>
-        {/* <Iframe
-          className="absolute   w-11/12 h-4/5 "
-          title="YouTube video player"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-          url={href}
-        ></Iframe> */}
       </div>
     </div>
   );

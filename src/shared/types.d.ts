@@ -242,6 +242,7 @@ type HeroProps = {
   tagline?: string;
   callToAction?: CallToActionType;
   callToAction2?: CallToActionType;
+  callToAction3?: CallToActionType;
   image?: Image;
   mainTitle?: string | ReactElement;
 };
